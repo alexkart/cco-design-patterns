@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Config;
+namespace Strategy\App\Config;
 
-use App\Config\Contracts\ParserInterface;
+use Strategy\App\Config\Contracts\ParserInterface;
 
 class Config
 {

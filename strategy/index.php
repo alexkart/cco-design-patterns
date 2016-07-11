@@ -1,10 +1,10 @@
 <?php
 
-require 'vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 
-$config = new \App\Config\Config(
-    new \App\Config\Parser\ArrayParser
+$config = new \Strategy\App\Config\Config(
+    new \Strategy\App\Config\Parser\ArrayParser
 );
 
 $config->load('config/database.php');
@@ -13,7 +13,7 @@ var_dump($config->get('mysql.host'));
 
 
 $config->setParser(
-    new \App\Config\Parser\JsonParser()
+    new \Strategy\App\Config\Parser\JsonParser()
 );
 
 $config->load('config/database.json');

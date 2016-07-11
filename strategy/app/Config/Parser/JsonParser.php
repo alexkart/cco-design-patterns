@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Config\Parser;
+namespace Strategy\App\Config\Parser;
 
-use App\Config\Contracts\ParserInterface;
+use Strategy\App\Config\Contracts\ParserInterface;
 
 class JsonParser implements ParserInterface
 {

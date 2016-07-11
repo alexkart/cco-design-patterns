@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Config\Contracts;
+namespace Strategy\App\Config\Contracts;
 
 interface ParserInterface
 {
