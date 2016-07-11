@@ -1,4 +1,4 @@
-# cco-design-patterns-strategy
+# cco-design-patterns
 
 ## Installation
 
